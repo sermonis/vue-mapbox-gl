@@ -1,0 +1,34 @@
+{
+  "name": "vue-mapbox-gl",
+  "version": "0.1.1",
+  "author": {
+    "name": "Alexey Pozdnyakov",
+    "email": "dev@sermonis.ru",
+    "url": "https://github.com/sermonis"
+  },
+  "homepage": "https://github.com/sermonis/vue-mapbox-gl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sermonis/vue-mapbox-gl.git"
+  },
+  "private": false,
+  "main": "dist/vue-mapbox-gl.umd.js",
+  "module": "src/main.js",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name vue-mapbox-gl src/main.js",
+    "serve": "vue-cli-service build --target lib --name vue-mapbox-gl src/main.js --watch"
+  },
+  "dependencies": {
+    "map-promisified": "latest"
+  },
+  "peerDependencies": {
+    "mapbox-gl": "^1.10.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "vue": "^2.6.6",
+    "vue-template-compiler": "^2.6.6"
+  }
+}

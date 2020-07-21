@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+
+# Distributive directories
+.dist
+dist/*.hot-update*
+
+# Local env files
+.env.local
+.env.*.local
+
+# Optional npm cache directory
+.npm
+*.map*
+*.DS_Store
+
+# Log files
+logs
+*.log*
+npm-debug.log*
+*.stackdump*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
