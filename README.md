@@ -1,23 +1,8 @@
-# vue-mapbox-gl
+# VueMapboxGL [![Build Status](https://travis-ci.org/sermonis/vue-mapbox-gl.svg?branch=master)](https://travis-ci.org/sermonis/vue-mapbox-gl) [![npm version](https://badge.fury.io/js/vue-mapbox-gl.svg)](https://badge.fury.io/js/vue-mapbox-gl)
 
-## Project setup
+## Project install
 ```
-yarn
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+yarn add vue-mapbox-gl-client
 ```
 
 ### Customize configuration
