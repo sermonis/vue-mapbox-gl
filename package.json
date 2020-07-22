@@ -1,15 +1,15 @@
 {
   "name": "vue-mapbox-gl-client",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": {
     "name": "Alexey Pozdnyakov",
     "email": "dev@sermonis.ru",
     "url": "https://github.com/sermonis"
   },
-  "homepage": "https://github.com/sermonis/vue-mapbox-gl",
+  "homepage": "https://github.com/sermonis/vue-mapbox-gl-client",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sermonis/vue-mapbox-gl.git"
+    "url": "https://github.com/sermonis/vue-mapbox-gl-client.git"
   },
   "private": false,
   "main": "dist/vue-mapbox-gl.umd.js",
