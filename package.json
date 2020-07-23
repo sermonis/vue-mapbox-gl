@@ -1,6 +1,6 @@
 {
   "name": "vue-mapbox-gl-client",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": {
     "name": "Alexey Pozdnyakov",
     "email": "dev@sermonis.ru",
@@ -19,6 +19,7 @@
     "serve": "vue-cli-service build --target lib --name vue-mapbox-gl src/main.js --watch"
   },
   "dependencies": {
+    "mapbox-gl": "^1.11.1",
     "map-promisified": "latest"
   },
   "peerDependencies": {
@@ -28,6 +29,6 @@
     "@vue/cli-service": "^4.4.6"
   },
   "devDependencies": {
-    "mapbox-gl": "^1.11.1"
+
   }
 }
