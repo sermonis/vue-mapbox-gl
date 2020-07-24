@@ -1,6 +1,10 @@
 {
   "name": "vue-mapbox-gl-client",
+<<<<<<< HEAD
   "version": "0.1.6",
+=======
+  "version": "0.1.8",
+>>>>>>> 6fb6b894516df6089cf2a2bef27f74c53727a40b
   "author": {
     "name": "Alexey Pozdnyakov",
     "email": "dev@sermonis.ru",
@@ -19,16 +23,16 @@
     "serve": "vue-cli-service build --target lib --name vue-mapbox-gl src/main.js --watch"
   },
   "dependencies": {
+    "mapbox-gl": "^1.11.1",
     "map-promisified": "latest"
   },
   "peerDependencies": {
-    "mapbox-gl": "^1.10.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11",
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-service": "^4.4.6"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.2.0",
-    "@vue/cli-service": "^3.2.0",
-    "vue": "^2.6.6",
-    "vue-template-compiler": "^2.6.6"
+
   }
 }
