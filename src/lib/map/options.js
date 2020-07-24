@@ -81,7 +81,7 @@ export default {
     hash: {
 
         type: Boolean,
-        default: true,
+        default: false,
 
     }, // hash
 
