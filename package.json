@@ -1,10 +1,6 @@
 {
   "name": "vue-mapbox-gl-client",
-<<<<<<< HEAD
-  "version": "0.1.6",
-=======
   "version": "0.1.8",
->>>>>>> 6fb6b894516df6089cf2a2bef27f74c53727a40b
   "author": {
     "name": "Alexey Pozdnyakov",
     "email": "dev@sermonis.ru",
