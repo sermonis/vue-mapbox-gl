@@ -11,7 +11,7 @@
 
 <script>
 
-    import './styles/mapbox-gl.css';
+    import 'mapbox-gl/dist/mapbox-gl.css';    
 
     import withEvents from './../mixins/withEvents';
     import withWatchers from './../mixins/withWatchers';
