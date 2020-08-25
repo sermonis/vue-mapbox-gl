@@ -1,6 +1,6 @@
 export default {
 
-    mounted: {
+    mounted () {
 
         // TODO: Better implementation.
         this.map.disable = this.disable();
