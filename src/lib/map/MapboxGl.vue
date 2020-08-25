@@ -15,7 +15,6 @@
 
     import withEvents from './../mixins/withEvents';
     import withWatchers from './../mixins/withWatchers';
-    import withPublicMethods from './../mixins/withPublicMethods';
     import withPrivateMethods from './../mixins/withPrivateMethods';
     import withAsyncActions from './../mixins/withAsyncActions';
 
@@ -26,7 +25,7 @@
 
         name: 'MapboxGl',
 
-        mixins: [ withWatchers, withAsyncActions, withPublicMethods, withPrivateMethods, withEvents ],
+        mixins: [ withWatchers, withAsyncActions, withPrivateMethods, withEvents ],
 
         props: {
 
@@ -166,7 +165,7 @@
                 const eventNames = Object.keys( mapEvents );
 
                 this._bindMapEvents( eventNames );
-                this._registerAsyncActions( map );                
+                this._registerAsyncActions( map );
                 this._bindPropsUpdateEvents();
 
                 this.initial = false;
