@@ -1,17 +1,11 @@
 export default {
 
-    mounted () {
-
-        // TODO: Better implementation.
-        this.map.disable = this.disable();
-
-    }, // mounted
-
     methods: {
 
         /**
         ** Disable map iteractions.
         ** @public
+        ** @see https://docs.mapbox.com/mapbox-gl-js/example/toggle-interaction-handlers/
         **/
         disable () {
 

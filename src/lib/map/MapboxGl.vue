@@ -167,6 +167,7 @@
 
                 this._bindMapEvents( eventNames );
                 this._registerAsyncActions( map );
+                this._registerPublicMethods();
                 this._bindPropsUpdateEvents();
 
                 this.initial = false;

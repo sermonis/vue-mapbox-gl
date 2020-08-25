@@ -5,6 +5,15 @@ export default {
         /**
         ** @private
         **/
+        _registerPublicMethods () {
+
+            this.map.disable = this.disable();
+
+        }, // _registerPublicMethods
+
+        /**
+        ** @private
+        **/
         _updateSyncedPropsFabric ( prop, data ) {
 
             return () => {
