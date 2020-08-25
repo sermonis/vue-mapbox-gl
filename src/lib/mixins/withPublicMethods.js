@@ -1,15 +1,16 @@
 export default {
 
-    // mounted: {
-    //
-    //     // TODO: Better implementation.
-    //     this.map.disable = this.disable();
-    //
-    // }, // mounted
+    mounted: {
+
+        // TODO: Better implementation.
+        this.map.disable = this.disable();
+
+    }, // mounted
 
     methods: {
 
         /**
+        ** Disable map iteractions.
         ** @public
         **/
         disable () {
@@ -24,7 +25,7 @@ export default {
 
             handlers.forEach( handler => this.map[ handler ].disable() );
 
-        }, // disableIteractions
+        }, // disable
 
     }, // methods
 
