@@ -1,15 +1,6 @@
 export default {
 
-    methods: {
-
-        /**
-        ** @private
-        **/
-        _registerPublicMethods () {
-
-            this.map.disable = this.disable();
-
-        }, // _registerPublicMethods
+    methods: {    
 
         /**
         ** @private

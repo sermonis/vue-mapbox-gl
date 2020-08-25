@@ -166,8 +166,7 @@
                 const eventNames = Object.keys( mapEvents );
 
                 this._bindMapEvents( eventNames );
-                this._registerAsyncActions( map );
-                this._registerPublicMethods();
+                this._registerAsyncActions( map );                
                 this._bindPropsUpdateEvents();
 
                 this.initial = false;
