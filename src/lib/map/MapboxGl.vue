@@ -11,10 +11,11 @@
 
 <script>
 
-    import 'mapbox-gl/dist/mapbox-gl.css';    
+    import 'mapbox-gl/dist/mapbox-gl.css';
 
     import withEvents from './../mixins/withEvents';
     import withWatchers from './../mixins/withWatchers';
+    import withPublicMethods from './../mixins/withPublicMethods';
     import withPrivateMethods from './../mixins/withPrivateMethods';
     import withAsyncActions from './../mixins/withAsyncActions';
 
@@ -25,7 +26,7 @@
 
         name: 'MapboxGl',
 
-        mixins: [ withWatchers, withAsyncActions, withPrivateMethods, withEvents ],
+        mixins: [ withWatchers, withAsyncActions, withPublicMethods, withPrivateMethods, withEvents ],
 
         props: {
 
