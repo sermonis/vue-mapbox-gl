@@ -26,6 +26,17 @@ export default {
     }, // accessToken
 
     /**
+    ** Create the gl context with MSAA antialiasing,
+    ** so custom layers are antialiased.
+    **/
+    antialias: {
+
+        type: Boolean,
+        default: false,
+
+    }, // antialias
+
+    /**
     **
     **/
     attributionControl: {
@@ -76,7 +87,9 @@ export default {
     }, // mapStyle
 
     /**
-    **
+    ** If true , the map's position (zoom, center latitude,
+    ** center longitude, bearing, and pitch) will be
+    ** synced with the hash fragment of the page's URL.
     **/
     hash: {
 
@@ -86,7 +99,8 @@ export default {
     }, // hash
 
     /**
-    **
+    ** If false , no mouse, touch, or keyboard listeners
+    ** will be attached to the map, so it will not respond to interaction.
     **/
     interactive: {
 
