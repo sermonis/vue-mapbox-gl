@@ -39,7 +39,7 @@
     **/
     export default {
 
-        name: 'Marker',
+        name: 'MapboxGlMarker',
 
         mixins: [ withEvents, withControlSelfEvents ],
 

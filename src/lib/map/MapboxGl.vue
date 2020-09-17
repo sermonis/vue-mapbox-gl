@@ -23,7 +23,7 @@
 
     export default {
 
-        name: 'MapboxGl',
+        name: 'MapboxGlMap',
 
         mixins: [ withWatchers, withAsyncActions, withPrivateMethods, withEvents ],
 

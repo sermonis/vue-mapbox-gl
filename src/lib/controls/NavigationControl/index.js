@@ -2,7 +2,7 @@ import withControl from './../../mixins/withControl';
 
 export default {
 
-    name: 'NavigationControl',
+    name: 'MapboxGlNavigationControl',
 
     mixins: [ withControl ],
 

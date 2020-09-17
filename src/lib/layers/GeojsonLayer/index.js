@@ -3,7 +3,7 @@ import withLayerMixin from './../../mixins/withLayer';
 
 export default {
 
-    name: 'GeojsonLayer',
+    name: 'MapboxGlGeojsonLayer',
 
     mixins: [ withLayerMixin ],
 

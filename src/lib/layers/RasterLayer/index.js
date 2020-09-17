@@ -3,7 +3,7 @@ import withLayerMixin from './../../mixins/withLayer';
 
 export default {
 
-    name: 'RasterLayer',
+    name: 'MapboxGlRasterLayer',
 
     mixins: [ withLayerMixin ],
 

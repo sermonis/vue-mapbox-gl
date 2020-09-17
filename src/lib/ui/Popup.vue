@@ -27,7 +27,7 @@
     **/
     export default {
 
-        name: 'Popup',
+        name: 'MapboxGlPopup',
 
         mixins: [ withEvents, withControlSelfEvents ],
 
