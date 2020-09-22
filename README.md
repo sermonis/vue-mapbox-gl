@@ -1,4 +1,4 @@
-# Vue MapboxGL Client
+# Vue JS MapboxGL Client
 [![npm version](https://badge.fury.io/js/vue-mapbox-gl-client.svg)](https://badge.fury.io/js/vue-mapbox-gl-client)
 [![npm](https://img.shields.io/npm/dt/vue-mapbox-gl-client.svg)](https://www.npmjs.com/package/vue-mapbox-gl-client)
 [![npm](https://img.shields.io/npm/dw/vue-mapbox-gl-client.svg)](https://www.npmjs.com/package/vue-mapbox-gl-client)
