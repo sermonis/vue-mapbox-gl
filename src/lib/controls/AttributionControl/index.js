@@ -8,9 +8,9 @@ export default {
 
     props: {
 
-        /**
-        **
-        **/
+		/**
+		**
+		**/
         compact: {
 
             type: Boolean,
@@ -18,9 +18,9 @@ export default {
 
         }, // compact
 
-        /**
-        **
-        **/
+		/**
+		**
+		**/
         customAttribution: {
 
             type: [ String, Array ],

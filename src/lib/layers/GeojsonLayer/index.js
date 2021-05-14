@@ -1,6 +1,9 @@
 import layerEvents from './../../events/layerEvents';
 import withLayerMixin from './../../mixins/withLayer';
 
+/**
+**
+**/
 export default {
 
     name: 'MapboxGlGeojsonLayer',

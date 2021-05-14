@@ -1,3 +1,6 @@
+/**
+**
+**/
 export default {
 
     resize: { name: 'resize' },

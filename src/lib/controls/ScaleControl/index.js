@@ -25,7 +25,8 @@ export default {
 
             type: String,
             default: 'metric',
-            validator ( value ) {
+
+			validator ( value ) {
 
                 return [ 'imperial', 'metric', 'nautical' ].includes( value );
 

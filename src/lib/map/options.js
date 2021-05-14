@@ -5,13 +5,13 @@ export default {
     **/
     container: {
 
-        type: [ String, HTMLElement ],
-
+        type: [ String, Object ],
+		
         default () {
 
             return `map-${ ( '' + Math.random() ).split( '.' )[ 1 ] }`;
 
-        }, // default
+        },
 
     }, // container
 

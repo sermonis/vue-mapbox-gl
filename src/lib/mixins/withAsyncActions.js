@@ -1,4 +1,4 @@
-import promisify from 'map-promisified';
+import { promisify } from '../utils';
 
 export default {
 

@@ -1,58 +1,69 @@
-// Map
-import MapboxGl from './lib/map/MapboxGl';
+/**
+** Controls
+**/
+import MapboxGlAttributionControl from './lib/controls/AttributionControl';
+export const AttributionControl = MapboxGlAttributionControl;
 
-// Controls
-import AttributionControl from './lib/controls/AttributionControl';
-import FullscreenControl from './lib/controls/FullscreenControl';
-import GeolocateControl from './lib/controls/GeolocateControl';
-import NavigationControl from './lib/controls/NavigationControl';
-import ScaleControl from './lib/controls/ScaleControl';
+import MapboxGlFullscreenControl from './lib/controls/FullscreenControl';
+export const FullscreenControl = MapboxGlFullscreenControl;
 
-// Layers
-import CanvasLayer from './lib/layers/CanvasLayer';
-import GeojsonLayer from './lib/layers/GeojsonLayer';
-import ImageLayer from './lib/layers/ImageLayer';
-import RasterLayer from './lib/layers/RasterLayer';
-import VectorLayer from './lib/layers/VectorLayer';
-import VideoLayer from './lib/layers/VideoLayer';
+import MapboxGlGeolocateControl from './lib/controls/GeolocateControl';
+export const GeolocateControl = MapboxGlGeolocateControl;
 
-// UI
-import Marker from './lib/ui/Marker';
-import Popup from './lib/ui/Popup';
+import MapboxGlNavigationControl from './lib/controls/NavigationControl';
+export const NavigationControl = MapboxGlNavigationControl;
 
-// Mixins
-import withEventsMixin from './lib/mixins/withEvents';
-import withControlSelfEventsMixin from './lib/mixins/withControlSelfEvents';
-import withControlMixin from './lib/mixins/withControl';
-import withLayerMixin from './lib/mixins/withLayer';
+import MapboxGlScaleControl from './lib/controls/ScaleControl';
+export const ScaleControl = MapboxGlScaleControl;
 
-// Map
-export const MapboxGlMap = MapboxGl;
+/**
+** Layers
+**/
+import MapboxGlCanvasLayer from './lib/layers/CanvasLayer';
+export const CanvasLayer = MapboxGlCanvasLayer;
 
-// Controls
-export const MapboxGlAttributionControl = AttributionControl;
-export const MapboxGlFullscreenControl = FullscreenControl;
-export const MapboxGlGeolocateControl = GeolocateControl;
-export const MapboxGlNavigationControl = NavigationControl;
-export const MapboxGlScaleControl = ScaleControl;
+import MapboxGlGeojsonLayer from './lib/layers/GeojsonLayer';
+export const GeojsonLayer = MapboxGlGeojsonLayer;
 
-// Layers
-export const MapboxGlCanvasLayer = CanvasLayer;
-export const MapboxGlGeojsonLayer = GeojsonLayer;
-export const MapboxGlImageLayer = ImageLayer;
-export const MapboxGlRasterLayer = RasterLayer;
-export const MapboxGlVectorLayer = VectorLayer;
-export const MapboxGlVideoLayer = VideoLayer;
+import MapboxGlImageLayer from './lib/layers/ImageLayer';
+export const ImageLayer = MapboxGlImageLayer;
 
-// UI
-export const MapboxGlMarkerUi = Marker;
-export const MapboxGlPopupUi = Popup;
+import MapboxGlRasterLayer from './lib/layers/RasterLayer';
+export const RasterLayer = MapboxGlRasterLayer;
 
-// Mixins
-export const withEvents = withEventsMixin;
-export const withControlSelfEvents = withControlSelfEventsMixin;
-export const withControl = withControlMixin;
-export const withLayer = withLayerMixin;
+import MapboxGlVectorLayer from './lib/layers/VectorLayer';
+export const VectorLayer = MapboxGlVectorLayer;
 
-// Map
-export default MapboxGl;
+import MapboxGlVideoLayer from './lib/layers/VideoLayer';
+export const VideoLayer = MapboxGlVideoLayer;
+
+/**
+** UI
+**/
+import MapboxGlMarker from './lib/ui/Marker';
+export const MarkerUi = MapboxGlMarker;
+
+import MapboxGlPopup from './lib/ui/Popup';
+export const PopupUi = MapboxGlPopup;
+
+/**
+** Mixins
+**/
+import MapboxGlwithEventsMixin from './lib/mixins/withEvents';
+export const withEvents = MapboxGlwithEventsMixin;
+
+import MapboxGlwithControlSelfEventsMixin from './lib/mixins/withControlSelfEvents';
+export const withControlSelfEvents = MapboxGlwithControlSelfEventsMixin;
+
+import MapboxGlwithControlMixin from './lib/mixins/withControl';
+export const withControl = MapboxGlwithControlMixin;
+
+import MapboxGlwithLayerMixin from './lib/mixins/withLayer';
+export const withLayer = MapboxGlwithLayerMixin;
+
+/**
+** Map.
+**/
+import MapboxGlMap from './lib/map/MapboxGl';
+export const Map = MapboxGlMap;
+export default Map;

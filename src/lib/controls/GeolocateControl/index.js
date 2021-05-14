@@ -2,6 +2,9 @@ import withControl from './../../mixins/withControl';
 import withEventsMixin from './../../mixins/withEvents';
 import withControlSelfEventsMixin from './../../mixins/withControlSelfEvents';
 
+/**
+**
+**/
 const geolocationEvents = {
 
     trackuserlocationstart: 'trackuserlocationstart',
@@ -11,6 +14,9 @@ const geolocationEvents = {
 
 };
 
+/**
+**
+**/
 export default {
 
     name: 'MapboxGlGeolocateControl',

@@ -6,14 +6,14 @@ export default {
 
     mixins: [ withControl ],
 
-    props: {
+	props: {
 
         /**
         **
         **/
-        container: {
+		container: {
 
-            type: HTMLElement,
+            type: Object,
             default: undefined,
 
         }, // container

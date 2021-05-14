@@ -1,4 +1,4 @@
-module.exports = {    
+module.exports = {
     productionSourceMap: false,
     configureWebpack: {
         externals: {
@@ -13,13 +13,7 @@ module.exports = {
                 commonjs2: "vue",
                 amd: "vue",
                 root: "vue"
-            },
-            "map-promisified": {
-                commonjs: "map-promisified",
-                commonjs2: "map-promisified",
-                amd: "map-promisified",
-                root: "map-promisified"
-            }
+            }            
         }
     }
 };
