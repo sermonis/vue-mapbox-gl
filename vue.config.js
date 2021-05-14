@@ -13,7 +13,7 @@ module.exports = {
                 commonjs2: "vue",
                 amd: "vue",
                 root: "vue"
-            }            
+            }
         }
     }
 };
