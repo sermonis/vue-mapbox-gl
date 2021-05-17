@@ -7102,12 +7102,12 @@ var Popup_component = normalizeComponent(
 )
 
 /* harmony default export */ var Popup = (Popup_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"13dedbce-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/map/MapboxGl.vue?vue&type=template&id=d089fa88&
-var MapboxGlvue_type_template_id_d089fa88_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"mapbox-gl-map-wrapper"},[_vm._m(0),(_vm.initialized)?_vm._t("default"):_vm._e()],2)}
-var MapboxGlvue_type_template_id_d089fa88_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container",attrs:{"id":_vm.container}})}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"13dedbce-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/lib/map/MapboxGl.vue?vue&type=template&id=f329b65e&
+var MapboxGlvue_type_template_id_f329b65e_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"mapbox-gl-map-wrapper"},[_vm._m(0),(_vm.initialized)?_vm._t("default"):_vm._e()],2)}
+var MapboxGlvue_type_template_id_f329b65e_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"container",attrs:{"id":_vm.container}})}]
 
 
-// CONCATENATED MODULE: ./src/lib/map/MapboxGl.vue?vue&type=template&id=d089fa88&
+// CONCATENATED MODULE: ./src/lib/map/MapboxGl.vue?vue&type=template&id=f329b65e&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.iterator.js
 var es_array_iterator = __webpack_require__("e260");
@@ -8557,8 +8557,8 @@ var MapboxGlvue_type_style_index_0_lang_css_ = __webpack_require__("2ae0");
 
 var MapboxGl_component = normalizeComponent(
   map_MapboxGlvue_type_script_lang_js_,
-  MapboxGlvue_type_template_id_d089fa88_render,
-  MapboxGlvue_type_template_id_d089fa88_staticRenderFns,
+  MapboxGlvue_type_template_id_f329b65e_render,
+  MapboxGlvue_type_template_id_f329b65e_staticRenderFns,
   false,
   null,
   null,
