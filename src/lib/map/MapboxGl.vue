@@ -2,8 +2,8 @@
 
     <div class="mapbox-gl-map-wrapper">
 
-        <div v-once :id="container" ref="container"/>
-        <slot v-if="initialized"/>
+		<div v-once :id="container" ref="container"></div>
+		<slot v-if="initialized"></slot>
 
     </div>
 
