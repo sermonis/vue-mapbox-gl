@@ -1,33 +1,32 @@
 {
   "name": "vue-mapbox-gl-client",
-  "version": "0.3.9",
+  "version": "0.4.0",
   "author": {
     "name": "Alexey Pozdnyakov",
     "email": "dev@sermonis.ru",
     "url": "https://github.com/sermonis"
   },
-  "homepage": "https://github.com/sermonis/vue-mapbox-gl-client",
+  "license" : "MIT",
+  "homepage": "https://github.com/sermonis/vue-mapbox-gl",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sermonis/vue-mapbox-gl-client.git"
+    "url": "https://github.com/sermonis/vue-mapbox-gl.git"
   },
   "private": false,
-  "main": "dist/vue-mapbox-gl-client.umd.js",
+  "main": "dist/vue-mapbox-gl.umd.js",
   "module": "src/main.js",
   "scripts": {
-    "build": "vue-cli-service build --target lib --name vue-mapbox-gl-client src/main.js",
-    "serve": "vue-cli-service build --target lib --name vue-mapbox-gl-client src/main.js --watch"
+    "build": "vue-cli-service build --target lib --name vue-mapbox-gl src/main.js",
+    "serve": "vue-cli-service build --target lib --name vue-mapbox-gl src/main.js --watch"
   },
   "dependencies": {
-    "vue": "^2.6.12",
-    "mapbox-gl": "^2.2.0"
+    "mapbox-gl": "^2.3.1",
+    "vue": "^2.6.14"
   },
-  "peerDependencies": {
-    "vue": "^2.6.12"
-  },
+  "peerDependencies": {},
   "devDependencies": {
-    "vue-template-compiler": "^2.6.12",
     "@vue/cli-plugin-babel": "^4.5.13",
-    "@vue/cli-service": "^4.5.13"
+    "@vue/cli-service": "^4.5.13",
+    "vue-template-compiler": "^2.6.14"
   }
 }
